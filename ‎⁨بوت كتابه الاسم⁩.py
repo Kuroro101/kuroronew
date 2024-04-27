@@ -9,7 +9,7 @@ headers = {
     'Referer': 'https://m.photofunia.com/categories/halloween/blood_writing',
     'User-Agent': 'Mozilla/5.0 (Linux; Android 12; M2004J19C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Mobile Safari/537.36',
 }
-token = "Token"
+token = "7152890202:AAGT_OiVLQgWJ5xdBI6Mblm6w1eS2pGOQg4"
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=["start"])
 def welcome(message):
